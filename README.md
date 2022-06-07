@@ -1,4 +1,4 @@
-# perceiverinLRA
+# Perciever on LRA Benchmark
 
 _This is the class project in New York University Machine Learning For Language Understanding class during 2022 Spring. All rights reserved._
 
