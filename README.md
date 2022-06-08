@@ -10,4 +10,4 @@ The project implements and reproduces the **LRA Benchmark** (its paper can be ac
 In addition, the project implements the newly released efficient transformer, Perceiver (its paper can be access at: [https://arxiv.org/abs/2103.03206](https://arxiv.org/abs/2103.03206)) using [HuggingFace interface for Perceiver](https://huggingface.co/docs/transformers/model_doc/perceiver). Our goal is to compare different efficient transformers for their abilities on handling long sequence data, and our paper can be accessed at: [click here](https://drive.google.com/file/d/1ScjeETTqjyDoM-cOC2-arJ6QKqZ3jcJ0/view?usp=sharing).
 
 ##
-People who contribute this project: Gavin Yang (zy2091@nyu.edu), Stephen Zhang (cz1906@nyu.edu), David Guo (jg6109@nyu.edu)
+People who contribute to this project: Gavin Yang (zy2091@nyu.edu), Stephen Zhang (cz1906@nyu.edu), David Guo (jg6109@nyu.edu)
