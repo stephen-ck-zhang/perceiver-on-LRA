@@ -26,7 +26,7 @@ python3 run_tasks.py --model <model> --task <task>
 where `<model>` can be set to `softmax, nystrom-64, reformer-2, performer-256` corresponding to standard self-attention, Nystromformer with 64 landmarks, Reformer with 2 LSHs, Performer with 256 random projection dimension. And `<task>` can be set to `listops, text, retrieval, image, pathfinder32-curv_contour_length_14`. The best models and log files will be saved `.../logs/` folder.
 
 
-## Perciever
+## Perceiver
 
-To run and test perciever on LRA benchmark, one can simply set `<model>` to `perciever`. And `<task>` can only be set to `listops, text` as we only compare the result of these two tasks. The best models and log files will be saved `.../logs/` folder.
+To run and test perceiver on LRA benchmark, one can simply set `<model>` to `perceiver`. And `<task>` can only be set to `listops, text` as we only compare the result of these two tasks. The best models and log files will be saved `.../logs/` folder.
 
