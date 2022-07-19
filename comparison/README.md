@@ -1,7 +1,7 @@
-
 ## LRA Benchmark
 
-We released the source code for LRA benchmark.
+The implementation of the original LRA Benchmark based on the [Nystromformer repo](https://github.com/mlpen/Nystromformer/tree/main/LRA).
+
 
 To prepare the datasets, one would need
 ```
@@ -15,10 +15,15 @@ comparison/datasets/lra_release
 ```
 Then, run `sh create_datasets.sh` and it will create train, dev, and test dataset pickle files for each task.
 
+Task Requirements
+------------------
 To run the LRA tasks, one would need
 ```
 pytorch==1.7.1, transformers==3.3.1, performer-pytorch
 ```
+
+LRA Benchmark
+--------------
 To run a LRA experiment, run the following command in `models` folder
 ```
 python3 run_tasks.py --model <model> --task <task>
